@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Piso WiFi Pause Time & LPB Piso WiFi Guide (Step-by-Step)</title>
+<meta name="description" content="Practical guide to Piso WiFi pause time and LPB Piso WiFi: how to connect, insert coins, pause and resume your session, fix common problems, and run a vendo smartly. Includes free calculators.">
+<meta name="robots" content="index, follow">
+<meta property="og:title" content="Piso WiFi Pause Time & LPB Piso WiFi Guide">
+<meta property="og:description" content="Step-by-step help for pausing time, connecting, vouchers, troubleshooting and owner tips, plus free calculators.">
+<meta property="og:type" content="website">
+<style>
+:root{--bg:#f6f8fc;--card:#fff;--ink:#14213d;--muted:#5b6785;--brand:#1f6feb;--brand2:#0b3d91;--accent:#ffb703;--ok:#12805c;--bad:#c0392b;--line:#e3e8f2}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.7}
+a{color:var(--brand)}
+.wrap{max-width:1040px;margin:0 auto;padding:0 18px}
+header.top{background:#fff;border-bottom:1px solid var(--line);position:sticky;top:0;z-index:20}
+header.top .wrap{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:12px 18px}
+.logo{font-weight:800;font-size:1.15rem;color:var(--brand2);text-decoration:none}
+.logo span{color:var(--accent)}
+nav a{margin-left:14px;text-decoration:none;color:var(--muted);font-size:.92rem;font-weight:600}
+nav a:hover{color:var(--brand)}
+@media(max-width:720px){nav{display:none}}
+.hero{background:linear-gradient(135deg,#0b3d91,#1f6feb 60%,#4aa3ff);color:#fff;padding:64px 0 70px}
+.hero h1{font-size:clamp(1.9rem,5vw,3rem);line-height:1.15;margin:0 0 14px}
+.hero p{max-width:680px;font-size:1.08rem;opacity:.95;margin:0 0 26px}
+.btns{display:flex;flex-wrap:wrap;gap:14px}
+.btn{display:inline-block;padding:14px 26px;border-radius:12px;font-weight:700;text-decoration:none;font-size:1rem;transition:transform .15s}
+.btn:hover{transform:translateY(-2px)}
+.btn.primary{background:var(--accent);color:#1b1b1b}
+.btn.ghost{background:rgba(255,255,255,.14);color:#fff;border:2px solid #fff}
+.badges{display:flex;flex-wrap:wrap;gap:10px;margin-top:26px;font-size:.88rem}
+.badges span{background:rgba(255,255,255,.16);padding:6px 12px;border-radius:999px}
+main section{padding:46px 0 6px}
+h2{font-size:clamp(1.5rem,3.4vw,2rem);margin:0 0 12px;color:var(--brand2)}
+h3{margin:22px 0 8px;font-size:1.15rem}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 10px rgba(20,33,61,.04);margin:16px 0}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px}
+.toc{display:flex;flex-wrap:wrap;gap:8px;margin:0;padding:0;list-style:none}
+.toc a{display:block;background:#fff;border:1px solid var(--line);padding:7px 13px;border-radius:999px;text-decoration:none;font-size:.9rem;font-weight:600}
+ol.steps{list-style:none;counter-reset:s;padding:0;margin:14px 0}
+ol.steps li{counter-increment:s;position:relative;background:#fff;border:1px solid var(--line);border-radius:14px;padding:14px 16px 14px 60px;margin:10px 0}
+ol.steps li::before{content:counter(s);position:absolute;left:14px;top:12px;width:34px;height:34px;border-radius:50%;background:var(--brand);color:#fff;font-weight:800;display:grid;place-items:center}
+.note{border-left:5px solid var(--accent);background:#fff8e1;padding:12px 16px;border-radius:8px;margin:16px 0;font-size:.97rem}
+.warn{border-left-color:var(--bad);background:#fdecea}
+.tip{border-left-color:var(--ok);background:#e8f6f0}
+table{width:100%;border-collapse:collapse;background:#fff;border-radius:12px;overflow:hidden;border:1px solid var(--line);font-size:.95rem}
+th,td{padding:11px 13px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top}
+th{background:#eef3fc;color:var(--brand2)}
+.tw{overflow-x:auto}
+.calc label{display:block;font-weight:600;margin:10px 0 4px;font-size:.93rem}
+.calc input,.calc select{width:100%;padding:10px 12px;border:1px solid #c8d2e6;border-radius:10px;font-size:1rem}
+.calc button{margin-top:14px;padding:12px 20px;border:0;border-radius:10px;background:var(--brand);color:#fff;font-weight:700;font-size:1rem;cursor:pointer}
+.result{margin-top:14px;padding:14px;background:#eef6ff;border-radius:10px;font-weight:600;min-height:24px}
+details{background:#fff;border:1px solid var(--line);border-radius:12px;margin:10px 0;padding:4px 16px}
+summary{cursor:pointer;font-weight:700;padding:12px 0}
+details p{margin:0 0 14px;color:#2b3858}
+.pill{display:inline-block;background:#e6efff;color:var(--brand2);font-weight:700;border-radius:999px;padding:2px 10px;font-size:.82rem}
+footer{margin-top:60px;background:#0e1b36;color:#c5cfe6;padding:36px 0;font-size:.92rem}
+footer a{color:#9cc4ff}
+.small{font-size:.85rem;color:var(--muted)}
+</style>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
+{"@type":"Question","name":"What is Piso WiFi pause time?","acceptedAnswer":{"@type":"Answer","text":"Pause time is a portal feature that freezes your remaining paid internet time so it stops counting down while you are away, and lets you resume it later."}},
+{"@type":"Question","name":"What is the LPB Piso WiFi portal address?","acceptedAnswer":{"@type":"Answer","text":"Customers usually open http://10.0.0.1 after joining the vendo network, and owners use the /admin page. The exact address can differ per machine, so check the label or portal redirect."}},
+{"@type":"Question","name":"Does paused time expire?","acceptedAnswer":{"@type":"Answer","text":"It can. Many owners set a maximum pause duration, so resume before that limit ends."}},
+{"@type":"Question","name":"Why is there no pause button on my machine?","acceptedAnswer":{"@type":"Answer","text":"The owner may have disabled pause time, or the firmware version may not include it."}}
+]}
+</script>
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap">
+    <a class="logo" href="#top">Piso<span>WiFi</span> Guide</a>
+    <nav>
+      <a href="#pause-time">Pause Time</a>
+      <a href="#lpb-piso-wifi">LPB Piso WiFi</a>
+      <a href="#tools">Calculators</a>
+      <a href="#troubleshooting">Fixes</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+  </div>
+</header>
+
+<div class="hero" id="top">
+  <div class="wrap">
+    <h1>Piso WiFi Pause Time &amp; LPB Piso WiFi: The Complete Practical Guide</h1>
+    <p>Learn how coin-operated WiFi works, how to connect, insert coins, pause and resume your session without wasting minutes, fix the usual errors, and run a vendo business smartly.</p>
+    <div class="btns">
+      <a class="btn primary" href="https://piso-wifi.org/">piso wifi pause time</a>
+      <a class="btn ghost" href="https://piso-wifi.org/lpb-piso-wifi/">lpb piso wifi</a>
+    </div>
+    <div class="badges">
+      <span>Step-by-step</span><span>Free calculators</span><span>For users &amp; owners</span><span>Troubleshooting table</span>
+    </div>
+  </div>
+</div>
+
+<main class="wrap">
+
+<section>
+  <ul class="toc">
+    <li><a href="#what-is">What is Piso WiFi</a></li>
+    <li><a href="#how-it-works">How it works</a></li>
+    <li><a href="#lpb-piso-wifi">LPB Piso WiFi</a></li>
+    <li><a href="#connect">Connect &amp; insert coins</a></li>
+    <li><a href="#pause-time">Pause time</a></li>
+    <li><a href="#admin">Admin setup</a></li>
+    <li><a href="#tools">Calculators</a></li>
+    <li><a href="#compare">Platforms compared</a></li>
+    <li><a href="#troubleshooting">Troubleshooting</a></li>
+    <li><a href="#security">Safety</a></li>
+    <li><a href="#owners">Owner tips</a></li>
+    <li><a href="#glossary">Glossary</a></li>
+    <li><a href="#faq">FAQ</a></li>
+  </ul>
+</section>
+
+<section id="what-is">
+  <h2>What Is Piso WiFi?</h2>
+  <p>"Piso" is the Filipino word for one peso. Piso WiFi is a coin-operated internet vending machine, often called a vendo. You drop coins into the box, the machine credits you minutes (or megabytes) of access, and your device gets online through the vendo's hotspot. No monthly plan, no contract, no ID.</p>
+  <div class="grid">
+    <div class="card"><h3>Who uses it?</h3><p>Students without home broadband, workers on a break, travelers, boarding-house tenants, and anyone who just needs a short burst of internet.</p></div>
+    <div class="card"><h3>Who runs it?</h3><p>Small shop owners, sari-sari stores, dorm owners and side-hustlers who share a fixed-line connection and charge by the minute.</p></div>
+    <div class="card"><h3>Why people like it</h3><p>You only pay for what you use. A single coin can buy enough time to check messages, submit a form or download a file.</p></div>
+  </div>
+</section>
+
+<section id="how-it-works">
+  <h2>How Piso WiFi Works Behind the Scenes</h2>
+  <p>A typical vendo is a small computer (often a single-board computer or a flashed router) wired to a coin acceptor and a Wi-Fi access point. The firmware does four jobs:</p>
+  <ol class="steps">
+    <li><strong>Captive portal.</strong> New devices are routed to a login page until they have paid credit.</li>
+    <li><strong>Coin counting.</strong> The coin acceptor sends pulses; the firmware converts the pulses into pesos, then into time or data.</li>
+    <li><strong>Session tracking.</strong> Your device is identified by its MAC address, and a timer counts down only while the session is active.</li>
+    <li><strong>Bandwidth control.</strong> The owner can cap speed per user so one person does not hog the line.</li>
+  </ol>
+  <div class="note"><strong>Why this matters for pause time:</strong> because sessions are tied to your device's MAC address, pause and resume only work reliably from the same device. Switching phones, or using "private/random MAC" mode, can make the vendo treat you as a new user.</div>
+</section>
+
+<section id="lpb-piso-wifi">
+  <h2>What Is LPB Piso WiFi?</h2>
+  <p>LPB Piso WiFi is one of the widely used firmware and portal styles for vendo machines in the Philippines. Its portal is typically opened at <code>http://10.0.0.1</code>, and the owner dashboard at <code>http://10.0.0.1/admin</code>. From the customer side you will usually see these buttons: <span class="pill">Insert Money</span> <span class="pill">Pause Time</span> <span class="pill">Resume</span> and a voucher box.</p>
+  <div class="card">
+    <h3>Quick facts</h3>
+    <div class="tw"><table>
+      <tr><th>Item</th><th>Usual value</th><th>Note</th></tr>
+      <tr><td>Customer portal</td><td>10.0.0.1</td><td>May differ per machine or router; check the sticker or the redirect page.</td></tr>
+      <tr><td>Admin page</td><td>10.0.0.1/admin</td><td>Owners only. Change default credentials right after setup.</td></tr>
+      <tr><td>Payment</td><td>Coins, sometimes vouchers</td><td>Tap Insert Money first, then drop coins.</td></tr>
+      <tr><td>Session identity</td><td>Device MAC address</td><td>Same device needed to resume.</td></tr>
+    </table></div>
+  </div>
+  <p class="small">Machine models and firmware builds vary a lot between vendors. If your screen looks different, the same ideas still apply.</p>
+</section>
+
+<section id="connect">
+  <h2>How to Connect and Insert Coins (Step by Step)</h2>
+  <ol class="steps">
+    <li>Open Wi-Fi settings on your phone or laptop and join the vendo's network name (it is usually printed on the machine).</li>
+    <li>Wait a few seconds. The captive portal often opens by itself. If it does not, open a browser and go to <code>http://10.0.0.1</code>.</li>
+    <li>Tap <strong>Insert Money</strong>. The machine opens its coin slot and starts a short countdown window.</li>
+    <li>Drop in your coins one by one. Watch the counter on the page rise.</li>
+    <li>Tap <strong>Done Paying</strong> so the credit is applied. Your timer starts and the internet unlocks.</li>
+    <li>Have a voucher instead? Type the code into the voucher box and press Submit.</li>
+  </ol>
+  <div class="tip note"><strong>Tip:</strong> If a coin is rejected, wipe it dry and flatten any bent edge. Wet, worn or foreign coins are the number one reason acceptors refuse payment.</div>
+</section>
+
+<section id="pause-time">
+  <h2>Piso WiFi Pause Time: How to Pause and Resume</h2>
+  <p>Pause time freezes your remaining balance so it stops running while you are not using the internet. It is ideal when you leave for class, step out of the shop, or switch off your phone for a while, without losing the minutes you already paid for.</p>
+
+  <h3>How to pause your time</h3>
+  <ol class="steps">
+    <li>Make sure you are still connected to the vendo network and have time left on your session.</li>
+    <li>Open the portal at <code>http://10.0.0.1</code> (or the address your machine uses).</li>
+    <li>Tap the <strong>Pause Time</strong> button.</li>
+    <li>Wait for the confirmation. The button changes to <strong>Resume</strong>, which means the countdown has stopped.</li>
+    <li>Disconnect from the Wi-Fi or leave the area. Your balance is held.</li>
+  </ol>
+
+  <h3>How to resume your time</h3>
+  <ol class="steps">
+    <li>Reconnect to the same vendo network using the same device.</li>
+    <li>Open the portal page again.</li>
+    <li>Tap <strong>Resume</strong>. The timer continues from where you stopped.</li>
+  </ol>
+
+  <div class="grid">
+    <div class="card"><h3>Do</h3><p>Pause before you leave. Resume within the owner's allowed window. Keep the same phone and keep MAC randomization off for this network.</p></div>
+    <div class="card"><h3>Don't</h3><p>Don't clear the portal session mid-pause, don't swap devices, and don't assume paused time lasts forever.</p></div>
+  </div>
+  <div class="note warn"><strong>Heads-up:</strong> Many owners set a maximum pause length or disable pausing altogether. If you see no Pause button, that is a setting on that machine, not an error on your phone.</div>
+
+  <h3>Does pausing "stack" with new coins?</h3>
+  <p>Usually yes: if you insert more coins while a session exists, the new time is added to the balance. If the session is paused, the safest habit is to resume first, then add coins, so the credit lands in an active session.</p>
+</section>
+
+<section id="admin">
+  <h2>For Owners: Enabling Pause Time and Basic Setup</h2>
+  <ol class="steps">
+    <li>Connect your phone or laptop to your own vendo network.</li>
+    <li>Open <code>http://10.0.0.1/admin</code> in Chrome or any modern browser.</li>
+    <li>Sign in with your administrator credentials. If you are still on factory defaults, change them immediately.</li>
+    <li>Find the portal or time settings area (menu names differ by version) and look for a pause or resume option.</li>
+    <li>Enable it, then set a sensible <strong>maximum pause duration</strong>.</li>
+    <li>Save, then test it as a normal customer on a second phone to confirm the Pause and Resume buttons appear and work.</li>
+  </ol>
+  <div class="card">
+    <h3>Suggested starting values (adjust to your location)</h3>
+    <div class="tw"><table>
+      <tr><th>Setting</th><th>Suggested start</th><th>Reason</th></tr>
+      <tr><td>Max pause duration</td><td>1 to 3 days</td><td>Long enough for school or work, short enough to avoid dead balances piling up.</td></tr>
+      <tr><td>Speed cap per user</td><td>2 to 5 Mbps</td><td>Keeps the line fair at busy hours.</td></tr>
+      <tr><td>Rate</td><td>₱1 for 5 to 10 minutes</td><td>Match local competition; test and adjust.</td></tr>
+      <tr><td>Portal message</td><td>Short, friendly</td><td>Tell users how long paused time is kept.</td></tr>
+    </table></div>
+  </div>
+  <p class="small">These are starting points, not rules. Check what neighbouring vendos charge before you finalize.</p>
+</section>
+
+<section id="tools">
+  <h2>Free Tools</h2>
+  <div class="grid">
+    <div class="card calc">
+      <h3>1) Time You Get for Your Coins</h3>
+      <label for="c1">Coins inserted (₱)</label><input id="c1" type="number" min="0" value="10">
+      <label for="r1">Minutes per ₱1 (machine rate)</label><input id="r1" type="number" min="1" value="8">
+      <button onclick="calcTime()">Calculate</button>
+      <div class="result" id="o1"></div>
+    </div>
+    <div class="card calc">
+      <h3>2) Pause Expiry Checker</h3>
+      <label for="p1">Hours since you paused</label><input id="p1" type="number" min="0" value="6">
+      <label for="p2">Owner's max pause (hours)</label><input id="p2" type="number" min="1" value="48">
+      <button onclick="calcPause()">Check</button>
+      <div class="result" id="o2"></div>
+    </div>
+    <div class="card calc">
+      <h3>3) Owner Break-Even Estimator</h3>
+      <label for="b1">Monthly internet bill (₱)</label><input id="b1" type="number" min="0" value="1699">
+      <label for="b2">Average daily coin income (₱)</label><input id="b2" type="number" min="0" value="120">
+      <label for="b3">Other monthly costs: power, repairs (₱)</label><input id="b3" type="number" min="0" value="300">
+      <button onclick="calcBE()">Estimate</button>
+      <div class="result" id="o3"></div>
+    </div>
+  </div>
+</section>
+
+<section id="compare">
+  <h2>Common Vendo Platforms at a Glance</h2>
+  <div class="tw"><table>
+    <tr><th>Platform</th><th>Typical style</th><th>Good for</th><th>Watch out for</th></tr>
+    <tr><td>LPB-style portals</td><td>Simple web portal with Insert Money and Pause Time</td><td>Beginners who want a familiar customer screen</td><td>Menu names and defaults vary by build</td></tr>
+    <tr><td>AdoPiSoft</td><td>Software suite with admin dashboard</td><td>Owners who want reports and vouchers</td><td>Needs compatible hardware</td></tr>
+    <tr><td>JuanFi (MikroTik-based)</td><td>Open-source, router-driven</td><td>Tinkerers comfortable with MikroTik</td><td>More configuration work</td></tr>
+  </table></div>
+  <p class="small">This is a general comparison for orientation. Always read the documentation for your exact version.</p>
+</section>
+
+<section id="troubleshooting">
+  <h2>Troubleshooting: Common Piso WiFi Problems</h2>
+  <div class="tw"><table>
+    <tr><th>Problem</th><th>Likely cause</th><th>What to try</th></tr>
+    <tr><td>Portal page won't open</td><td>Phone using mobile data or a private DNS</td><td>Turn off mobile data, disable Private DNS, then open http://10.0.0.1 manually.</td></tr>
+    <tr><td>"Connected, no internet"</td><td>No active credit, or upstream line down</td><td>Insert coins, press Done Paying; ask the owner to check the main modem.</td></tr>
+    <tr><td>Coin not accepted</td><td>Dirty, bent or wet coin</td><td>Clean it, try another coin, or ask the owner to recalibrate the acceptor.</td></tr>
+    <tr><td>Pause button missing</td><td>Disabled by owner or older firmware</td><td>Ask the owner; otherwise use your time before leaving.</td></tr>
+    <tr><td>Resume failed or time gone</td><td>Different device, MAC randomization, or pause expired</td><td>Turn off random MAC for this network, use the same phone, and resume sooner next time.</td></tr>
+    <tr><td>Kicked out early</td><td>Session timed out or another user on the same MAC</td><td>Re-open the portal and check remaining time.</td></tr>
+    <tr><td>Slow speed</td><td>Peak hours or per-user cap</td><td>Try off-peak hours; close background downloads.</td></tr>
+    <tr><td>Cannot reach admin page</td><td>Wrong IP or not on the vendo network</td><td>Confirm your gateway IP in Wi-Fi details and use that address plus /admin.</td></tr>
+  </table></div>
+  <div class="card">
+    <h3>Quick checklist before you call the owner</h3>
+    <ul>
+      <li>Wi-Fi on, mobile data off.</li>
+      <li>Correct network name selected.</li>
+      <li>Portal opened by IP address, not a search engine.</li>
+      <li>Same device you paid with.</li>
+      <li>Remaining time shown on the portal.</li>
+    </ul>
+  </div>
+</section>
+
+<section id="security">
+  <h2>Staying Safe on Public Coin WiFi</h2>
+  <ul>
+    <li><strong>Treat it as public Wi-Fi.</strong> Avoid banking or sensitive logins on any open hotspot if you can.</li>
+    <li><strong>Prefer HTTPS sites.</strong> Look for the padlock before typing passwords.</li>
+    <li><strong>Turn off file sharing</strong> and auto-connect to open networks on your device.</li>
+    <li><strong>Owners:</strong> change default admin passwords, keep firmware updated, and never expose the admin page to the open internet.</li>
+    <li><strong>Be wary of "unlimited free time" tricks</strong> and cracked tools. They often carry malware and can get your device blocked.</li>
+  </ul>
+</section>
+
+<section id="owners">
+  <h2>Tips for Running a Piso WiFi Business</h2>
+  <div class="grid">
+    <div class="card"><h3>Pick a good spot</h3><p>Near schools, boarding houses, terminals and busy stores. Foot traffic beats raw speed.</p></div>
+    <div class="card"><h3>Price with testing</h3><p>Start near local rates, then adjust weekly. Track coin totals so you can see what actually sells.</p></div>
+    <div class="card"><h3>Protect the line</h3><p>Per-user speed caps and sensible session limits keep paying customers happy.</p></div>
+    <div class="card"><h3>Keep the box healthy</h3><p>Ventilate the cabinet, protect from moisture, and clean the coin acceptor regularly.</p></div>
+    <div class="card"><h3>Use pause time wisely</h3><p>It builds trust, since customers feel their coins are respected. Set a clear expiry and show it on the portal.</p></div>
+    <div class="card"><h3>Back up settings</h3><p>Export your configuration so a failed SD card or reset doesn't wipe your setup.</p></div>
+  </div>
+</section>
+
+<section id="glossary">
+  <h2>Mini Glossary</h2>
+  <div class="tw"><table>
+    <tr><th>Term</th><th>Meaning</th></tr>
+    <tr><td>Vendo</td><td>The coin-operated machine itself.</td></tr>
+    <tr><td>Captive portal</td><td>The login or payment page you see before internet access.</td></tr>
+    <tr><td>MAC address</td><td>A hardware ID the machine uses to recognize your device.</td></tr>
+    <tr><td>Voucher</td><td>A prepaid code that adds time to your session.</td></tr>
+    <tr><td>Pause / Resume</td><td>Freeze and restart your remaining time.</td></tr>
+    <tr><td>Bandwidth cap</td><td>A limit on speed per user.</td></tr>
+  </table></div>
+</section>
+
+<section id="faq">
+  <h2>Frequently Asked Questions</h2>
+  <details><summary>What is Piso WiFi pause time?</summary><p>It is a portal feature that freezes your remaining paid time so it stops counting down while you are away, and lets you resume later.</p></details>
+  <details><summary>How do I pause time on LPB Piso WiFi?</summary><p>Join the vendo network, open the portal (commonly 10.0.0.1), and tap Pause Time. When the button turns into Resume, your time is paused.</p></details>
+  <details><summary>Will my paused time expire?</summary><p>It can. Owners often set a maximum pause window, so resume before it runs out.</p></details>
+  <details><summary>Can I resume from a different phone?</summary><p>Usually not. Sessions are tied to the device's MAC address, so use the same device.</p></details>
+  <details><summary>Why can't I see the Pause button?</summary><p>The owner may have turned it off, or the firmware may not support it. Ask the owner.</p></details>
+  <details><summary>Is the portal address always 10.0.0.1?</summary><p>No. It is common, but it can differ by machine and router. Check the sticker or your Wi-Fi gateway details.</p></details>
+  <details><summary>How do I redeem a voucher?</summary><p>Enter the voucher code in the voucher box on the portal and submit it. The time is added to your session.</p></details>
+  <details><summary>Is it safe to bank on Piso WiFi?</summary><p>Treat it like any public hotspot. Prefer HTTPS, avoid sensitive logins when possible, and log out when done.</p></details>
+  <details><summary>I'm an owner. How do I enable pause time?</summary><p>Log in to your admin page, find the pause or resume setting in the portal options, enable it, set a max pause duration, save, then test as a customer.</p></details>
+  <details><summary>Why was my coin rejected?</summary><p>Usually the coin is dirty, wet, bent or not supported. Clean it or try another, and ask the owner to recalibrate if it keeps happening.</p></details>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <p><strong>Disclaimer:</strong> This is an independent informational guide. Menus, addresses and features differ between vendo brands and firmware versions. Always follow your machine owner's instructions and the manufacturer's documentation.</p>
+    <p>Related: <a href="#pause-time">Pause time</a> · <a href="#faq">FAQ</a></p>
+    <p class="small">&copy; <span id="yr"></span> Piso WiFi Guide</p>
+  </div>
+</footer>
+
+<script>
+document.getElementById('yr').textContent=new Date().getFullYear();
+function calcTime(){
+  var c=+document.getElementById('c1').value,r=+document.getElementById('r1').value;
+  var m=c*r,h=Math.floor(m/60),mm=Math.round(m%60);
+  document.getElementById('o1').textContent=c+' coins at '+r+' min each = '+m+' minutes ('+h+'h '+mm+'m)';
+}
+function calcPause(){
+  var a=+document.getElementById('p1').value,b=+document.getElementById('p2').value;
+  var left=b-a,el=document.getElementById('o2');
+  el.textContent=left>0?('Safe for about '+left+' more hour(s). Resume before it ends.'):'Your pause window has probably ended. Open the portal and check your balance.';
+}
+function calcBE(){
+  var bill=+document.getElementById('b1').value,d=+document.getElementById('b2').value,o=+document.getElementById('b3').value;
+  var cost=bill+o,inc=d*30,net=inc-cost,el=document.getElementById('o3');
+  if(inc<=0){el.textContent='Enter a daily income above 0.';return;}
+  var need=Math.ceil(cost/30);
+  el.textContent='Monthly income ₱'+inc+' vs costs ₱'+cost+' = '+(net>=0?'profit':'loss')+' of ₱'+Math.abs(net)+'. Break-even needs about ₱'+need+' per day.';
+}
+calcTime();calcPause();calcBE();
+</script>
+</body>
+</html>
